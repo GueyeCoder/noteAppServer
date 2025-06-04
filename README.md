@@ -7,8 +7,8 @@ NoteServer est un backend API pour une application de prise de notes développé
 ## Prérequis
 
 - Node.js (v14 ou supérieur)
-- MongoDB (installé et en cours d'exécution)
-- npm (gestionnaire de paquets Node.js)
+- MongoDB 
+- npm 
 
 ## Installation
 
@@ -25,7 +25,7 @@ npm install
 Le serveur est configuré pour:
 - Fonctionner sur le port 8081
 - Se connecter à une base de données MongoDB locale nommée `noteDB`
-- Écouter sur l'adresse IP 192.168.1.15
+- Écouter sur l'adresse IP Votre ip
 
 Pour modifier ces paramètres, vous pouvez éditer les configurations dans le fichier `server.js`.
 
